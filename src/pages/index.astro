@@ -30,25 +30,25 @@ const projects = (await getCollection('hall-of-fame'))
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
-				<Hero
-					title="Welcome to AstroFrog's Dojo"
-					tagline="Join the froggie that moon walks, memes, and builds communities. Launching soon!"
-					align="start"
-				>
-					<CountDown/>
-					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> 🔒 Renounced</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> 💪 Community</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> 😂 Memes</Pill>
-					</div>
-				</Hero>
+				<>
+					<Hero
+						title="Welcome to AstroFrog's Dojo"
+						tagline="Join the froggie that moon walks, memes, and builds communities. Launching soon!"
+						align="start"
+					>
+						<CountDown/>
+						<div class="roles">
+							<Pill><Icon icon="code" size="1.33em" /> 🔒 Renounced</Pill>
+							<Pill><Icon icon="microphone-stage" size="1.33em" /> 💪 Community</Pill>
+							<Pill><Icon icon="pencil-line" size="1.33em" /> 😂 Memes</Pill>
+						</div>
+					</Hero>
 
-				<img
-					alt="AstroFrog smiling in a red plaid shirt and tortoise shell glasses"
-					width="620"
-					height="620"
-					src="/assets/icon.webp"
-				/>
+					<img
+						alt="AstroFrog smiling in a red plaid shirt and tortoise shell glasses"
+						src="/assets/icon.webp"
+					/>
+				</>
 			</header>
 
 			<Skills />
@@ -120,7 +120,6 @@ const projects = (await getCollection('hall-of-fame'))
 	}
 
 	.hero img {
-		aspect-ratio: 5 / 4;
 		object-fit: cover;
 		object-position: top;
 		border-radius: 1.5rem;
@@ -142,7 +141,6 @@ const projects = (await getCollection('hall-of-fame'))
 		}
 
 		.hero img {
-			aspect-ratio: 3 / 4;
 			border-radius: 4.5rem;
 			object-fit: cover;
 		}
