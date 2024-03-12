@@ -1,0 +1,38 @@
+
+
+
+<!-- Display the countdown timer -->
+<div id="countdown"></div>
+
+<!-- Include the countdown timer script -->
+<script>
+  // Define the target date and time
+const targetDate = new Date("March 15, 2024 17:00:00 UTC").getTime();
+
+  // Get the countdown element
+  const countdownElement: any = document.getElementById('countdown');
+
+  // Update the countdown every second
+  setInterval(() => {
+    // Get the current date and time
+    const now = new Date().getTime();
+
+    // Calculate the time remaining until the target date and time
+    const distance = targetDate - now;
+
+    // Calculate the number of days, hours, minutes, and seconds remaining
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Update the countdown element
+    countdownElement.innerText = `🚀🐸🧑‍🚀 in T-minus: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+    // If the countdown is over, display a message
+    if (distance < 0) {
+      clearInterval(0);
+      countdownElement.innerText = "LAUNCHED!🚀🐸🧑‍🚀";
+    }
+  }, 1000);
+</script>
