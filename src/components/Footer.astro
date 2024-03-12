@@ -1,4 +1,5 @@
 ---
+import { urls } from './Constants';
 import Icon from './Icon.astro';
 const currentYear = new Date().getFullYear();
 ---
@@ -12,11 +13,11 @@ const currentYear = new Date().getFullYear();
 		<p>&copy; {currentYear} JT Labs</p>
 	</div>
 	<p class="socials">
-		<a href="https://twitter.com/AstroFrog_AF"> Twitter</a>
-		<a href="https://t.me/+YLRmwGGZMBYyNzEx"> Telegram</a>
-		<a href="https://github.com/orgs/JT-Labs-LLC"> GitHub</a>
-		<a href="https://birdeye.so/token/EWiW8S1th53MPHAJUF3cYyjV6rmMTqhzbJs2ts6xdjbT?chain=solana"> Chart</a>
-		<a href="https://jup.ag/swap/SOL-AF_EWiW8S1th53MPHAJUF3cYyjV6rmMTqhzbJs2ts6xdjbT"> Buy</a>
+		<a href={urls.twitter}> Twitter</a>
+		<a href={urls.telegram}> Telegram</a>
+		<a href={urls.githuborg}> GitHub</a>
+		<a href={urls.birdeye}> Chart</a>
+		<a href={urls.jupiter}> Buy</a>
 	</p>
 </footer>
 <style>

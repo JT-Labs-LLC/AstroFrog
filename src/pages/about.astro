@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
+import { urls, addresses } from '../components/Constants';
 import Hero from '../components/Hero.astro';
 ---
 
@@ -23,7 +24,21 @@ import Hero from '../components/Hero.astro';
 			<section>
 				<h2 class="section-title">Address</h2>
 				<div class="content">
-					<p><a href="https://solana.fm/address/EWiW8S1th53MPHAJUF3cYyjV6rmMTqhzbJs2ts6xdjbT">EWiW8S1th53MPHAJUF3cYyjV6rmMTqhzbJs2ts6xdjbT</a></p>
+					<p><a href={urls.explorer}>{addresses.token}</a></p>
+					
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Telemetry</h2>
+				<div class="content">
+					<p><a href={urls.birdeye}>Birdeye chart</a></p>
+					
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Launch</h2>
+				<div class="content">
+					<p>At time of launch will iniate an airdrop to all AstroFrog community memebers and create the official <a href={urls.raydium}>Raydium</a> liqudity pool so that the token is purchasesable via <a href={urls.jupiter}>Jupiter</a>. <i>Please note until then, all of the Raydium and Jupiter links are purely placeholders!</i></p>
 					
 				</div>
 			</section>
