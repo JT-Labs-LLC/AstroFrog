@@ -14,5 +14,5 @@ export const urls = {
   telegram: "https://t.me/+YLRmwGGZMBYyNzEx",
   twitter: "https://twitter.com/AstroFrog_AF",
   jupiter: `https://jup.ag/swap/SOL-AF_${addresses.token}`,
-  explorer: `https://solana.fm/address/${addresses.token}}`,
+  explorer: `https://solana.fm/address/${addresses.token}`,
 };
