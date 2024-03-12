@@ -2,34 +2,23 @@
 title: Buzz Al-slurpn
 publishDate: 2020-03-02 00:00:00
 img: /assets/p1.webp
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Buzz Al-slurpn portrait
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  From Pond to Moon Dust, Hopping onto History.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Pilot
+  - Fast Reflexes
 ---
 
-## Level-two heading
+## A Leap Beyond the Stars
+### Tadpole Dreams
+In a lily pad far, far away, Buzz Al-slurpn was once just a tiny tadpole with a head full of dreams. Spending his days gazing at the sky from the murky waters of his home pond, Buzz wasn't the strongest swimmer, nor the fastest hopper. What he lacked in froglet muscle, he made up for with an unshakeable will and a heart as vast as the cosmos. While his pond-mates played in the reeds, Buzz crafted makeshift rockets from algae and reeds, fueled by pure imagination and pond-scum. His motto, etched into the bark of the oldest willow, read:
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> "Leap high, land soft, aim for the stars."
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+### Academy to Apollo
+As Buzz grew, his ambitions swelled like a croaking chorus at moonrise. He trained at the prestigious Amphibian Aerospace Academy, acing courses like "Advanced Lilypad Calculus" and "Interstellar Insect Identification."
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+Unlike his peers, Buzz was inspired by the silent songs of the stars rather than the boisterous bellowing of the bullfrogs. His mentors saw potential in his pondering gaze and soon, Buzz became the first frog to be chosen for the legendary Apollo Ribbit XI mission, leapfrogging over more seasoned astronauts with his quiet determination.
 
-### Level-three heading
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
-
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
