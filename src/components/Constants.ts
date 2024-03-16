@@ -8,7 +8,7 @@ export const addresses = {
 };
 
 export const urls = {
-  birdeye: `https://birdeye.so/token/${addresses.token}?chain=solana`,
+  birdeye: `https://dexscreener.com/solana/${addresses.token}`,
   raydiumlp: `https://raydium.io/liquidity/add/?coin0=${addresses.token}&coin1=sol&fixed=coin0&ammId=AVs9TA4nWDzfPJE9gGVNJMVhcQy3V9PGazuz33BfG2RA`,
   raydiumbuy: `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${addresses.token}&outputSymbol=AF&fixed=in`,
   githuborg: "https://github.com/orgs/JT-Labs-LLC",
