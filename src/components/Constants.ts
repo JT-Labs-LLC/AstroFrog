@@ -17,4 +17,5 @@ export const urls = {
   twitter: "https://twitter.com/AstroFrog_AF",
   jupiter: `https://t0.jup.ag/swap/AF_${addresses.token}-SOL`,
   explorer: `https://solana.fm/address/${addresses.token}`,
+  rugcheck: `https://rugcheck.xyz/tokens/${addresses.token}`,
 };
