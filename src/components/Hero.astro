@@ -51,4 +51,12 @@ const { align = 'center', tagline, title } = Astro.props;
 			font-size: var(--text-5xl);
 		}
 	}
+	@media (max-width: 600px) {
+		.hero {
+		/* Styles for screens smaller than 600px */
+		width: 100%;
+		padding: 10px;
+		}
+
+	}
 </style>

@@ -12,6 +12,7 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
+import { urls } from '../components/Constants'
 
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
@@ -33,11 +34,10 @@ const projects = (await getCollection('hall-of-fame'))
 				<>
 					<Hero
 						title="AstroFrog AF"
-						tagline="Join the froggie that moon walks, memes, and builds communities."
+						tagline="Join the froggie that moon walks and builds communities."
 						align="start"
 					>
 						<!-- <CountDown/> -->
-						CA: 7DFxbvFxRdga7FrqhkehpXeeaR6yCZF9oJnZhpxCXHfx
 						<div class="roles">
 							<Pill><Icon icon="code" size="1.33em" /> 🔒 Renounced</Pill>
 							<Pill><Icon icon="microphone-stage" size="1.33em" /> 💪 Community</Pill>
@@ -45,10 +45,10 @@ const projects = (await getCollection('hall-of-fame'))
 						</div>
 					</Hero>
 
-					<img
+					<a href={urls.dexscreener}><img
 						alt="AstroFrog smiling in a red plaid shirt and tortoise shell glasses"
 						src="/assets/icon.webp"
-					/>
+					/></a>
 				</>
 			</header>
 
